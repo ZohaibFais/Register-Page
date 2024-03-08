@@ -1,0 +1,1189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.colorText{
+    color: #F5A121;
+}
+.colorText2 {
+    color:#08548D;
+}
+header{
+    width: 100%;
+    /* background: brown; */
+    display: flex;
+}
+header .logo{
+    width: 30%;
+    opacity: 0.5;;
+    /* border-radius: 20px; */
+}
+ .logo img{
+    width: 100%;
+    height: 100px;
+    /* padding-left: 80px; */
+}
+ .services {
+    width: 50%;
+    height: fit-content;
+    margin-top: 40px;
+}
+.services ul {
+    display: flex;
+    width: 100%;
+}
+.services ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+.signup{
+    margin-left: 30px;
+    margin-top: 30px;
+    /* background: greenyellow; */
+    width: 15%;
+    height: 50px;
+}
+.signup button{
+    background: #00538F;
+    width: 80%;
+    height: 80%;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0px ;
+    cursor: pointer;
+}
+.signup button h3{
+    color: white;
+}
+.sell{
+    /* width: 100%; */
+    margin-top: 10px;
+    background: radial-gradient(#F7F3E9,#EDF3FF);
+    display: flex
+}
+
+.sell .text{
+    width: 50%;
+    padding-top: 40px;
+    /* background: indianred; */
+}
+
+.text .colorText h1{
+    margin-left: 50px;
+    
+}
+.text .colorText2 h1{
+  margin-left: 50px;
+}
+
+.text .info{
+    width: 65%;
+    /* background: lightblue; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text .info p{
+    padding-left: 35px;
+    font-size: 20px;
+}
+ .search{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+
+.search input {
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding-left: 30px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+.search button {
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    position: absolute; 
+    right: 0px;
+    top: 0;
+    bottom: 0; 
+    border-radius: 20px;
+    background: #00538F;
+    padding: 5px; 
+}
+
+.popularSearch{
+    margin-top: 20px;
+    /* background: aquamarine; */
+    width: fit-content;
+    height: 30px;
+    padding-left: 50px;
+    display: flex;
+    align-items: baseline;
+}
+.popularSearch h4{
+    font-size: 14px;
+}
+.popularSearch p{
+    margin-left: 2px;
+    font-size: 13px
+}
+.pic1 {
+    width: 50%;
+    /* background: blueviolet; */
+    margin-top: 0px;
+}
+.pic1 img{
+    width: 90%;
+}
+
+@media screen and (max-width:780px) {
+
+    header .logo{
+        width: 20%;
+    }
+    header .services{
+        width: 60%;
+        margin-left: 0px;
+    }
+
+    .services ul li {
+        width: 90%;
+    }
+    .signup{
+        width: 15%;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    .sell .info {
+        width: 80%;
+     }
+     .sell .info p{
+        font-size: 15px;
+     }
+    
+    .sell .pic1 img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .container{
+        width: 100%;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+    header .logo{
+        width: 100%;
+    }
+    header .logo img{
+        padding-left: 80px;
+    }
+    header .services{
+       
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .signup{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .signup button {
+        width: 40%;
+    }
+    .sell{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sell .text{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .sell .pic1{
+        width: 70%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .text .colorText2 h1{
+        margin-left: 30px;
+      }
+
+}
+
+ .aboutUs{
+    width: 100%;
+    /* background: rebeccapurple; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+} 
+.aboutPic{
+    width: 50%;
+    /* margin-left: 10px; */
+    /* background: goldenrod; */
+    
+}
+.aboutPic img{
+    float: right;
+    margin-right: 50px;
+    width: 100%;
+    height: 430px;
+}
+.aboutText{
+    width: 45%;
+     /* margin-left: 40px; */
+     margin-top: 20px;
+    /* background: red; */
+}
+.sub{
+    /* background: yellow; */
+    width: 45%;
+}
+.colorText h3{
+    color: #F5A121;
+    /* padding-left: 50px; */
+} 
+.sub .colorText2 h1{
+    color:#08548D;
+    padding-left: 0px;
+    padding-top: 4px;
+    margin-top: 5px;
+}
+.aboutInfo{
+    width: 95%;
+    margin-top: 15px;
+    /* background: olive; */
+}
+.aboutInfo p{
+    font-size: 17px;
+}
+.card{
+    width: 90%;
+    margin-top: 20px;
+    height: 120px;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+}
+.experience{
+    width: 30%;
+    height: 110px;
+    /* background: aquamarine; */
+}
+.job{
+    width: 30%;
+    height: 110px;
+    /* background: khaki; */
+}
+.clients{
+    width: 30%;
+    height: 110px;
+    /* background: palevioletred; */
+}
+.experience .colorText h1{
+    color: #F5A121;
+    padding-left: 10px;
+    font-size: 40px;
+}
+.experience h2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.job .colorText h1{
+    color: #F5A121;
+    padding-left: 10px;
+    font-size: 40px;
+}
+.job h2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.clients .colorText h1{
+    color: #F5A121;
+    padding-left: 10px;
+    font-size: 40px;
+}
+.clients h2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:780px) {
+    .aboutPic img{
+        height: 500px;
+        width: 97%;
+    }
+    .sub{
+        width: 80%;
+    }
+}
+@media  screen and (max-width:430px) {
+    .aboutUs{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .aboutPic{
+        width: 100%;
+    }
+    .aboutPic img{
+        width: 75%;
+        height: 300px;
+    }
+    .aboutText{
+        width: 100%;
+        align-items: center;
+    }
+    .sub{
+        width: 100%;
+        text-align: center;
+    }
+    .aboutInfo{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .card{
+      width: 100%;
+      padding-left: 30px;
+    }
+
+}
+
+
+.category{
+    width: 100%;
+    margin-top: 60px;
+    /* background: gray; */
+    
+}
+.category .categoryHead{
+    text-align: center;
+}
+.category span h1{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:430px) {
+ .category span h1{
+    padding-left: 10px;
+ }
+}
+.categoryCards {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardRows {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryCards .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    width: 5%;
+    cursor: pointer;
+}
+
+.arrows .circle1 {
+    background: white;
+    width: 40px;
+    border: none;
+    margin-top: 200px;
+    border-radius: 100%;
+}
+
+.leftArrow {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.rightArrow {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.leftarrow span, .rightarrow span {
+    font-size: 30px;
+    color: #2867B1;
+    padding: 5px;
+}
+
+.card1 {
+    width: 33%;
+    height: 240px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    margin: 10px 20px;
+    border: 20px solid #FFFFFF;
+}
+
+.card1 .firsthalf {
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firsthalf img {
+    padding-left: 20px;
+    width: 30%;
+    height: 75px;
+}
+
+.firsthalf .text {
+    margin-right: 8px;
+}
+
+.courseName h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.courseDescription p {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .card1 .courseDescription {
+        margin-top: 4px;
+    }
+    .card1 .courseDescription p {
+        font-size: 12px;
+    }
+    .rightArrow {
+        margin-right: 10px;
+    }
+    .firsthalf img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .categoryCards .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cardRows{
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 100%;
+    }
+    .arrows {
+       visibility:hidden ;
+    }
+
+}
+
+.why{
+    width: 100%;
+    /* height: 700px; */
+    /* background: green; */
+    margin-top: 50px;
+    display: flex;
+  
+}
+.whyText{
+    width: 50%;
+    /* background: blue; */
+       /* display: flex; */
+}
+
+.whyHead{
+    width: 100%;
+    display: flex;
+}
+
+
+.whyText .sub{
+    width: 80%;
+
+    /* background: blueviolet; */
+    margin-top: 20px;
+}
+.whyText .sub p {
+    padding-left: 55px;
+}
+.advantages{
+    width: 100%;
+    /* background: yellow; */
+    margin-top: 30px;
+    
+}
+.commission{
+    width: 100%;
+    /* background: gray; */
+}
+.commission .pic{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.commission .pic h3{
+    margin-top: 6px;
+    margin-left: 13px;
+}
+.commission .pic img{
+    margin-left: 50px;
+    width: 5%;
+}
+
+.commission .commissionSub {
+    /* background: gold; */
+    margin-top: 5px;
+    font-size:15px;
+    margin-left: 86px;
+}
+.whyPic{
+    width: 70%;
+    /* background: white; */
+    position: relative;
+}
+.whyPic img{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width:430px) {
+    .why{
+        flex-wrap: wrap;
+    }
+    .whyText{
+        width: 100%;
+        
+    }
+    .whyPic{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.proceedingCircles{
+    width: 100%;
+    /* background: gray; */
+    text-align: center;
+}
+.proceedingCircles img{
+    width: 10%;
+}
+@media screen and (max-width:430px) {
+    .proceedingCircles img{
+        width: 20%;
+    }
+    .whyHead .colorText h1{
+        margin-top: 10px;
+    }
+}
+
+.jobs{
+    width: 100%;
+    /* height: 400px; */
+    /* background: yellow; */
+    margin-top: 50px;
+}
+.jobsHeader{
+    width: 100%;
+    text-align: center;
+    /* background: orange; */
+}
+.jobsHeader span h1{
+    font-size: 40px;
+}
+
+.jobsHeader p {
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.jobsCards{
+    width: 100%;
+    /* height: 500px; */
+    /* background: green; */
+    margin-top: 15px;
+}
+.jobsCards .row{
+    display: flex
+}
+.jobsCards .card1{
+    height: 210px;
+}
+.jobsCards .card1 .firsthalf{
+    margin-top: 20px;
+    justify-content: left;
+   
+}
+.jobsCards .card1 .firsthalf svg{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+}
+.firsthalf .text {
+    margin-left: 10px;
+}
+
+.card1 .courseName{
+    margin-top: 30px;
+}
+.courseName h2 {
+    padding-left: 30px;
+}
+.courseDescription {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.card1 .footer{
+    width: 100%;
+    height: 50px;
+    /* background: yellow; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around
+}
+.card1 .footer .charger{
+    width: 50%;
+    height: 50px;
+    /* background: gray; */
+    display: flex;
+
+}
+.charger img{
+    margin-left: 18px;
+    width: 10%;
+    height: 60%;
+}
+.charger h4{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.footer .join{
+    width: 40%;
+    /* height: 100px; */
+    /* background: orchid; */
+    text-align: center;
+}
+.join button{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+
+}
+button h3{
+    color: white;
+}
+
+@media screen and (max-width:780px) {
+    .card1 .footer{
+        margin-top: 17px;
+    }
+    .footer button{
+        height: 85%;
+        margin-right: 10px;
+    }
+    
+    .card1 .footer .charger {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .jobsCards .row{
+        flex-wrap: wrap;
+    }
+    .jobsHeader{
+        text-align: left;
+    }
+    .jobsHeader .colorText2 h1{
+        padding-left: 40px;
+    }
+    .jobsHeader p{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+}
+
+.income{
+    width: 100%;
+    height: 300px;
+    /* background:blueviolet; */
+    margin-top: 100px;
+    display: flex
+}
+.incomeText{
+    width: 50%;
+    height: 200px;
+    /* background: orangered; */
+    
+}
+.incomeTextHeader{
+  margin-left: 40px;
+  /* background: yellow; */
+}
+.incomeTextHeader .colorText2 h1{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.incomeTextSub{
+    /* background:indianred; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.incomeTextSub p{
+    font-weight: 600;
+}
+
+.joinNow{
+    margin-top: 40px;
+    width: 100%;
+    height: 70px;
+    /* background: hotpink; */
+}
+.joinNow button{
+    background: orange;
+    /* width: 60%; */
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: left;
+}
+.joinNow button h3{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size:20px;
+    font-weight: bold;
+}
+.incomePic{
+    width: 50%;
+    /* background: yellowgreen; */
+    position: relative;
+    margin-right: 30px;
+}
+.incomePic img{
+    width: 100%;
+    height: 350px;
+}
+@media screen and (max-width:430px) {
+    .income{
+        flex-wrap: wrap;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .incomeText{
+        width: 100%;
+    }
+    .incomePic{
+        width: 100%;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    .incomePic img{
+        width: 100%;
+    }
+}
+
+.founder{
+    width: 100%;
+    /* height: 500px; */
+    /* background: palegreen; */
+    margin-top: 100px;
+    display: flex;
+}
+.founderpic{
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    /* background: white; */
+}
+.founderpic img{
+    width: 80%;
+    height: 400px;
+    padding-left: 80px;
+}
+.founderText{
+    margin-top: 50px;
+    width: 50%;
+    /* height: 400px; */
+    position: relative;
+    /* background: olive; */
+}
+.founderHead{
+    width: 100%;
+    height: 100px;
+    /* background: violet; */
+   margin-top: 50px;
+}
+.founderHead .colorText2 h1{
+    text-align: start;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.founderDetail{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.founderDetail p{
+    text-transform: uppercase;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+.social{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.social img{
+    width: 40%;
+    height: 80px;
+    cursor: pointer;
+    padding-left: 0px;
+}   
+
+
+@media screen and (max-width:430px) {
+    .founder{
+        margin-top: 400px;
+        flex-wrap: wrap;
+    }
+    .founder .founderpic{
+        width: 100%;
+        /* background: yellow; */
+    }
+    .founderText{
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .founder .colorText2 h1{
+        text-align: center;
+    }
+     .founderDetail p{
+        padding-left: 30px;
+     }   
+    }
+
+
+.clientReview{
+    width: 100%;
+    /* background: green; */
+
+}
+.clientReviewHeader{
+    width: 100%;
+    /* height: 100px; */
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.clientReviewHeader span h1{
+    text-transform: uppercase;
+    margin-left: 40px; 
+    margin-top: 40px; 
+    text-align: center;
+    /* text-decoration: underline; */
+}
+.clientReviewHeader .arrows{
+    width: 30%;
+    /* height: 100px; */
+    /* background: grey; */
+    display: flex;
+    justify-content: right;
+}
+.clientReviewHeader .arrows .circle1{
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.clientReviewHeader .circle1 {
+    background: white;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+}
+
+.clientReview .reviewCard{
+    width: 100%;
+    height: 300px;
+    /* background: gold; */
+    margin-top: 50px;
+    display: flex;
+}
+.reviewCard .card1{
+   margin-left: 30px;
+}
+
+.card1 .reviewIdentity{
+    width: 100%;
+    height: 100px;
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+}
+.reviewIdentity .reviewLogo{
+    width: 50%;
+    height: 80px;
+    /* background: violet; */
+    display: flex;
+    margin-top: 10px;
+}
+.reviewLogo h3{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.reviewIdentity .rating{
+    width: 50%;
+    height: 100px;
+    /* background: palegreen; */
+    padding-top: 15px;
+    text-align: center;
+}
+.fa-star{
+    color:#D9D9D9;
+}
+.checked{
+    color:#E7D000;
+}
+.reviewText{
+    width: 100%;
+    /* height: 100px; */
+    /* background: peru; */
+}
+.reviewText p{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:780px) {
+    .reviewText p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:430px) {
+    .clientReview{
+        margin-top: 100px;
+    }
+    .colorText2 h1 {
+        margin-left: 0px;
+    }
+    .colorText2 h1 {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .clientReviewHeader .arrows {
+        width: 0%;
+    }
+    
+    .clientReviewHeader span h1 {
+        margin-left: 20px;
+    }
+    .clientReview .reviewCard {
+        flex-wrap: wrap;
+    }
+    .reviewCard .card1{
+        height: 200px;
+    }
+}  
+
+.opportunity{
+    width: 100%;
+    height: 400px;
+    /* background: gray; */
+    margin-top: 70px;
+    display: flex;
+}
+
+.opportunityText{
+    width: 50%;
+    /* height: 300px; */
+    /* background: palevioletred; */
+}
+.opportunityTextHeader{
+    width: 100%;
+    margin-top: 40px;
+    /* height: 100px; */
+    /* background: peachpuff; */
+}
+.opportunityTextHeader h1{
+    padding-left: 50px;
+}
+.opportunityTextDescription{
+    width: 80%;
+    margin-top: 40px;
+}
+.download{
+    margin-left: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.download img{
+    width: 60%;
+}
+
+.opportunityTextDescription p{
+    padding-left: 50px;
+}
+.opportunityImage{
+    width: 50%;
+    height: 200px;
+    /* background: olivedrab; */
+}
+
+.opportunityImage img{
+    width: 100%;
+    height: 500px;
+}
+
+
+@media screen and (max-width:430px) {
+    .opportunity{
+        margin-top: 400px;
+        flex-wrap: wrap;
+    }
+    .opportunityText{
+        width: 100%;
+    }
+    .opportunityImage{
+        width: 100%;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 370px;
+    background: #2867B1;
+    margin-top: 150px;
+}
+.textarea{
+    width: 100%;
+    /* height: 250px; */
+    /* background: gray */
+    display: flex;
+    justify-content: space-between;
+}
+.summary{
+    width: 20%;
+    /* height: 200px; */
+    margin-left: 20px;
+    /* background: powderblue; */
+    /* text-align: center; */
+    color: white;
+}
+.company, .help, .company2,.categories{
+    width: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.company h4, .help h4, .company2 h4, .categories h4 {
+    padding-top: 20px;
+}
+.categories{
+    margin-right: 30px;
+}
+.summary p{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.summary h1{  
+    padding-top: 20px;  
+    padding-left: 20px;
+}
+.summary img {
+    width: 60%;
+    height: 40px;
+    padding-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 40px;
+}
+
+.copyright{
+    width: 100%;
+    /* height: 100px; */
+    /* background: olivedrab; */
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:780px)  {
+    footer{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    footer{
+        margin-top: 500px;
+        height: fit-content
+    }
+    .textarea{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .summary{
+        width: 100%;
+    }
+    .summary img{
+        height: 70px;
+       
+    }
+    .summary h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .summary p {
+        width: 98%;
+        padding-top: 21px;
+        padding-left: 0px;
+    }
+    .company, .help, .company2, .categories {
+        width: 50%;
+    }
+    .company{
+        padding-left: 50px;
+    }
+    .categories{
+        margin-right: 0px;
+    }
+    .company2{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+}

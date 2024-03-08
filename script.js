@@ -1,3 +1,34 @@
+
+var emailInput = document.getElementById('email');
+var passwordInput = document.getElementById('password');
+
+function login() {
+    var email = emailInput.value;
+    var password = passwordInput.value;
+
+    var usersData = JSON.parse(localStorage.getItem('Data')) || [];
+
+    var loginuser = usersData.find(function(activeuser){
+       return  activeuser.email == email & activeuser.password == password
+    })
+    var loggedInUser = usersData.find(function(user) {
+        return user.email === email && user.password === password;
+    });
+
+    if (loggedInUser) {
+        alert("Login successful. Welcome, " + loggedInUser.fullname + "!");
+        emailInput.value = "";
+        passwordInput.value = "";
+        window.location.href = "http://127.0.0.1:5500/app.html"
+    } else {
+        alert("Invalid email or password. Please try again.");
+
+
+    }
+    
+}
+
+
 var emailInput = document.getElementById('email');
 var fullNameInput = document.getElementById('fullName');
 var countrySelect = document.getElementById('countryName');
