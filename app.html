@@ -10,29 +10,30 @@
   <body>
     <div class="container">
       <header>
-        <div class="logo">
-          <div class="picture">
-            <img src="/pictures/logo.png" alt="" />
+          <div class="logo">
+              <div class="picture">
+                  <img src="/pictures/logo.png" alt="" />
+              </div>
           </div>
-        </div>
-        <div class="services">
-          <ul>
-            <li style="color: #100ddb; cursor: pointer; font-weight: bold">
-              Home
-            </li>
-            <li>FreeLancer</li>
-            <li>Blogs</li>
-            <li>Find Work</li>
-            <li>Post a Job</li>
-            <li style="color: #100ddb; cursor: pointer; font-weight: bold" id="Login ">
-              Login
-            </li>
-          </ul>
-        </div>
-        <div class="signup">
-          <button id="Signup"><h3>Sign up</h3></button>
-        </div>
+          <div class="services">
+              <ul>
+                  <li style="color: #100ddb; cursor: pointer; font-weight: bold">
+                      Home
+                  </li>
+                  <li>FreeLancer</li>
+                  <li>Blogs</li>
+                  <li>Find Work</li>
+                  <li>Post a Job</li>
+                  <li id="appLogin" style="color: #100ddb; cursor: pointer; font-weight: bold;">
+                      Login
+                  </li>
+              </ul>
+          </div>
+          <div class="signup">
+              <button><h3 id="appSignup" onclick="signout()">Signup</h3></button>
+          </div>
       </header>
+  </div>
       <div class="sell">
         <div class="text">
           <div class="heading">
@@ -632,5 +633,6 @@
         </div>
       </footer>
   </div>
+    <script src="/script.js"></script>
   </body>
 </html>

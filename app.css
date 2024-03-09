@@ -122,6 +122,9 @@ header .logo{
     background: #00538F;
     padding: 5px; 
 }
+li #applogin{
+    visibility: inherit;
+}
 
 .popularSearch{
     margin-top: 20px;
