@@ -1,12 +1,13 @@
 // Login js
 
-var emailInput = document.getElementById('email');
-var passwordInput = document.getElementById('password');
-var appLogin = document.getElementById('appLogin');
-var appSignup = document.getElementById('appSignup');
-var islogged = false;
 
 function login() {
+    
+    var emailInput = document.getElementById('email');
+    var passwordInput = document.getElementById('password');
+    var appLogin = document.getElementById('appLogin');
+    var appSignup = document.getElementById('appSignup');
+    var islogged = false;
     var email = emailInput.value;
     var password = passwordInput.value;
 
